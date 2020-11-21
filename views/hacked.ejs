@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>You have been hacked!</title>
+    <style>
+      * {
+        margin: auto;
+        background-color: black;
+        color: greenyellow;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .divContainer {
+        margin-top: 25rem;
+        padding: 10px;
+        border: 2px solid greenyellow;
+        width: 33%;
+        height: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="divContainer">
+      <h1>You have been hacked!</h1>
+      <h2>Here's your Data:</h2>
+      <h2><%= data %></h2>
+    </div>
+  </body>
+</html>
